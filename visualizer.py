@@ -18,7 +18,7 @@ colors = {
 duration = 1000000  # seconds
 
 print("Connecting to lights...")
-light = magichue.Light('192.168.1.156')  # led ip address
+light = magichue.Light('ip')  # led ip address
 print("Connection established")
 
 if not light.on:
